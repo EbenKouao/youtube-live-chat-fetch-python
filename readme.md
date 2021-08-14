@@ -6,7 +6,7 @@ The purpose of the YouTube Live Stream Fetch Python application would be used to
 
 However, the use cases can be expanded to work for your project. Here's a basic application example.
 
-[Credits PytChat GitHub Repo:](https://github.com/taizan-hokuto/pytchat)
+[Credits PytChat GitHub Repo:](https://pypi.org/project/pytchat/)
 
 Create a virtual environment: `python3 -m venv env`
 Activate virtual environment: `source env/bin/activate`
@@ -27,8 +27,11 @@ while chat.is_alive():
 ## How it Works:
 This library takes your video ID and fetches data based (via http request). 
 
-The selected video ID  can be within the Youtube - URL:
-URL: https://www.youtube.com/watch?v={videoID} e.g. https://www.youtube.com/watch?v=5qap5aO4i9A
+The selected video ID can be located wuithin the Youtube URL:
+
+URL: https://www.youtube.com/watch?v={videoID} 
+
+e.g. https://www.youtube.com/watch?v=5qap5aO4i9A
 
 **Note:** The above example/ repo only works with YouTube live streams.
-The Pytchat library provides attributes of author objects, which be used to fetch super chats, Supersuckers etc.
+The Pytchat library provides [attributes of author object](https://github.com/taizan-hokuto/pytchat/wiki/DefaultProcessor), which be used to fetch super chats, Supersuckers etc.
